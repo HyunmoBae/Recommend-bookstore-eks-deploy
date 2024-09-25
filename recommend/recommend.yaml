@@ -15,7 +15,7 @@ spec:
         app: rec
     spec:
       containers:
-        - image: 178020491921.dkr.ecr.ap-northeast-2.amazonaws.com/recommend:9
+        - image: 178020491921.dkr.ecr.ap-northeast-2.amazonaws.com/recommend:10
           name: recommend
           command: ["python", "recommend.py"]
 ---
