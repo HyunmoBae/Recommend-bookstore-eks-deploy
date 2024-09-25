@@ -1,4 +1,4 @@
-# recommend 서비스 ALB로 배포하기.
+# EKS에서 MSA를 ALB로 배포하기.
 
 EKS에서 서비스를 ALB로 배포하기전, ALBcontroller를 생성 후 권한을 부여 해야한다.
 
