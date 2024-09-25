@@ -14,7 +14,7 @@ spec:
     - http:
         paths:
           - pathType: Prefix
-            path: /reservations
+            path: /reservation
             backend:
               service:
                 name: reservation-svc
