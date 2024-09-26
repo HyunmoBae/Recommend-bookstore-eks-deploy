@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: reservation
-          image: 178020491921.dkr.ecr.ap-northeast-2.amazonaws.com/reservation:10
+          image: 178020491921.dkr.ecr.ap-northeast-2.amazonaws.com/reservation:11
 ---
 apiVersion: v1
 kind: Service
