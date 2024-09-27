@@ -15,7 +15,7 @@ spec:
         app: per
     spec:
       containers:
-        - image: 178020491921.dkr.ecr.ap-northeast-2.amazonaws.com/personalize:5
+        - image: 178020491921.dkr.ecr.ap-northeast-2.amazonaws.com/personalize:6
           name: personalize
 ---
 apiVersion: v1
