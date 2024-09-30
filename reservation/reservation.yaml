@@ -14,6 +14,7 @@ spec:
       labels:
         app: res
     spec:
+      serviceAccountName: aws-reservation
       containers:
         - name: reservation
           image: 178020491921.dkr.ecr.ap-northeast-2.amazonaws.com/reservation:14
