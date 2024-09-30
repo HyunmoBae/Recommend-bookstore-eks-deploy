@@ -14,6 +14,7 @@ spec:
       labels:
         app: per
     spec:
+      serviceAccountName: aws-personalize
       containers:
         - image: 178020491921.dkr.ecr.ap-northeast-2.amazonaws.com/personalize:9
           name: personalize
