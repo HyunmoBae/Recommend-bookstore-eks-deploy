@@ -5,6 +5,7 @@ metadata:
     app: rec-dep
   name: rec-dep
 spec:
+  serviceAccountName: aws-bedrock
   replicas: 3
   selector:
     matchLabels:
