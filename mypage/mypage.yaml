@@ -13,6 +13,7 @@ spec:
       labels:
         app: mypage-app
     spec:
+      serviceAccountName: aws-mypage
       containers:
       - name: mypage
         image: 178020491921.dkr.ecr.ap-northeast-2.amazonaws.com/mypage:3
