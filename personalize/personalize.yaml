@@ -16,7 +16,7 @@ spec:
     spec:
       serviceAccountName: aws-personalize
       containers:
-        - image: 178020491921.dkr.ecr.ap-northeast-2.amazonaws.com/personalize:8
+        - image: 178020491921.dkr.ecr.ap-northeast-2.amazonaws.com/personalize:9
           name: personalize
 ---
 apiVersion: v1
